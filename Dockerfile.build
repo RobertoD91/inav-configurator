@@ -1,0 +1,23 @@
+FROM node:22-bookworm
+
+RUN apt-get update
+RUN apt-get install -y --no-install-recommends \
+    build-essential \
+    ca-certificates \
+    dpkg \
+    fakeroot \
+    git \
+    libudev-dev \
+    libusb-1.0-0-dev \
+    pkg-config \
+    python3 \
+    rpm \
+    unzip \
+    xvfb \
+    zip
+
+RUN corepack enable
+
+WORKDIR /workspace
+
+CMD ["bash"]
