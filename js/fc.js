@@ -758,6 +758,14 @@ var FC = {
                 rates: {
                     16000: "16kHz"
                 }
+            },
+            7: {
+                name: "SRXL2",
+                message: null,
+                defaultRate: 100,
+                rates: {
+                    100: "100Hz"
+                }
             }
         };
     },

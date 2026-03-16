@@ -91,6 +91,12 @@ const serialPortHelper = (function () {
             isUnique: true
         },
         {
+            name: 'SRXL2_ESC',
+            groups: ['peripherals'],
+            defaultBaud: 115200,
+            isUnique: true
+        },
+        {
             name: 'OPFLOW',
             groups: ['sensors'],
             isUnique: true
@@ -154,6 +160,7 @@ const serialPortHelper = (function () {
         'RANGEFINDER': 16,
         'VTX_FFPV': 17,
         'ESC': 18,
+        'SRXL2_ESC': 28,
         'GSM_SMS': 19,
         'FRSKY_OSD': 20,
         'DJI_FPV': 21,

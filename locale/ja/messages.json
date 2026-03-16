@@ -1307,6 +1307,9 @@
     "portsFunction_MSP": {
         "message": "MSP"
     },
+    "portsFunction_SRXL2_ESC": {
+        "message": "SRXL2 Smart ESC"
+    },
     "portsFunction_GPS": {
         "message": "GPS"
     },

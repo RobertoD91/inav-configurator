@@ -2231,6 +2231,9 @@
     "portsFunction_MSP": {
         "message": "MSP"
     },
+    "portsFunction_SRXL2_ESC": {
+        "message": "SRXL2 Smart ESC"
+    },
     "osdElement_PLIMIT_REMAINING_BURST_TIME": {
         "message": "Оставшееся время работы при пиковой нагрузке"
     },
