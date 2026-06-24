@@ -138,6 +138,12 @@ const serialPortHelper = (function () {
             defaultBaud: 420000,
             lockedBaud: true,
             isUnique: true
+        },
+        {
+            name: 'SRXL2_ESC',
+            groups: ['peripherals'],
+            defaultBaud: 115200,
+            isUnique: true
         }
     ];
 
@@ -169,7 +175,8 @@ const serialPortHelper = (function () {
         'CRSF_SENSOR': 24,
         'MSP_DISPLAYPORT': 25,
         'GIMBAL': 26,
-        'HEADTRACKER': 27
+        'HEADTRACKER': 27,
+        'SRXL2_ESC': 28
     };
 
     privateScope.identifierToName = {
