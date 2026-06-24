@@ -1433,6 +1433,9 @@
     "portsFunction_ESC": {
         "message": "ESC output/telemetry"
     },
+    "portsFunction_SRXL2_ESC": {
+        "message": "Spektrum SRXL2 ESC"
+    },
     "portsFunction_TELEMETRY_FRSKY": {
         "message": "FrSky"
     },
