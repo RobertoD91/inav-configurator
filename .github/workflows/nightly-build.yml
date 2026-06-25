@@ -5,6 +5,8 @@ on:
     branches:
       - master
       - maintenance-8.x.x
+      - maintenance-9.x.x
+      - maintenance-10.x.x
 #  pull_request:
 
 jobs:
@@ -40,7 +42,7 @@ jobs:
                 tag_name: v${{env.VERSION}}-${{ steps.date.outputs.today }}.${{ github.run_number }}
                 # To create release on a different repo, we need a token setup
                 token: ${{ secrets.NIGHTLY_TOKEN }}
-                repository: iNavFlight/inav-configurator-nightly
+                repository: RobertoD91/inav-configurator
                 prerelease: true
                 draft: false
                 #generate_release_notes: true
