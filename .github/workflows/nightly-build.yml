@@ -16,7 +16,9 @@ jobs:
         name: Build nightly-release
         runs-on: ubuntu-latest
         needs: [build]
-        if: github.repository == 'iNavFlight/inav-configurator'
+        # Only publish when a NIGHTLY_TOKEN secret is available.
+        # Forks can set the vars.NIGHTLY_RELEASE_REPO variable to publish to their own repo.
+        if: vars.NIGHTLY_RELEASE_REPO != '' || github.repository == 'iNavFlight/inav-configurator'
 
         steps:
             - name: Get current date
@@ -41,7 +43,7 @@ jobs:
                 tag_name: v${{env.VERSION}}-${{ steps.date.outputs.today }}.${{ github.run_number }}
                 # To create release on a different repo, we need a token setup
                 token: ${{ secrets.NIGHTLY_TOKEN }}
-                repository: iNavFlight/inav-configurator-nightly
+                repository: ${{ vars.NIGHTLY_RELEASE_REPO || 'iNavFlight/inav-configurator-nightly' }}
                 prerelease: true
                 draft: false
                 #generate_release_notes: true
