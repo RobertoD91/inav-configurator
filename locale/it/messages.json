@@ -286,7 +286,7 @@
         "message": "I profili sono salvati localmente. I profili contengono non solo tutti i dati di questa tab, ma anche il file di configurazione (\"EEPROM\") di INAV. <br><span style=\"color: red\">Nota:</span><br>I profili standard non possono essere sovrascritti. Per salvare le modifiche, crea un nuovo profilo. "
     },
     "sitlEnableSimulatorHelp": {
-        "message": "Se questa opzione e disattivata, possono essere usate solo le UART (MSP/Configurator). Utile per configurare INAV senza avviare il simulatore."
+        "message": "Se questa opzione è disattivata, possono essere usate solo le UART (MSP/Configurator). Utile per configurare INAV senza avviare il simulatore."
     },
     "sitlUseImuHelp": {
         "message": "Usa i dati sensore IMU del simulatore invece dei dati di assetto del simulatore in modo diretto (Sperimentale, non consigliato)."
@@ -2905,31 +2905,31 @@
         "message": "Per abilitare via CLI usa il comando <strong>feature {name}</strong>"
     },
     "armingFailureReasonTitle": {
-        "message": "Pre-arming checks"
+        "message": "Controlli pre-arming"
     },
     "BLOCKED_UAV_NOT_LEVEL": {
-        "message": "UAV is levelled"
+        "message": "UAV livellato"
     },
     "BLOCKED_SENSORS_CALIBRATING": {
-        "message": "Run-time calibration"
+        "message": "Calibrazione a runtime"
     },
     "BLOCKED_SYSTEM_OVERLOADED": {
-        "message": "CPU load"
+        "message": "Carico CPU"
     },
     "BLOCKED_NAVIGATION_SAFETY": {
-        "message": "Navigation is safe"
+        "message": "Navigazione sicura"
     },
     "BLOCKED_COMPASS_NOT_CALIBRATED": {
-        "message": "Compass calibrated"
+        "message": "Bussola calibrata"
     },
     "BLOCKED_ACCELEROMETER_NOT_CALIBRATED": {
-        "message": "Accelerometer calibrated"
+        "message": "Accelerometro calibrato"
     },
     "BLOCKED_HARDWARE_FAILURE": {
-        "message": "Hardware health"
+        "message": "Stato hardware"
     },
     "BLOCKED_INVALID_SETTING": {
-        "message": "Settings validated"
+        "message": "Impostazioni validate"
     },
     "armingCheckPass": {
         "message": "<div class=\"checkspass\"></div>"
@@ -2965,7 +2965,7 @@
         "message": "Acc Gain"
     },
     "NoteCalibration": {
-        "message": "Nota: se l'IMU e montata con un altro angolo o sotto il flight controller, esegui i passaggi di calibrazione con l'IMU orientata come nelle immagini, non il quad (altrimenti la calibrazione non funzionerà)."
+        "message": "Nota: se l'IMU è montata con un altro angolo o sotto il flight controller, esegui i passaggi di calibrazione con l'IMU orientata come nelle immagini, non il quad (altrimenti la calibrazione non funzionerà)."
     },
     "AccBtn": {
         "message": "Calibra accelerometro"
@@ -5257,7 +5257,7 @@
         "message": "Numero poli motore (numero magneti)"
     },
     "motorStopWarning": {
-        "message": "Should be enabled on Airplanes, Rovers and Boats. Should not be enabled on Multirotors! On Multirotors, when Airmode is active, motors will not stop."
+        "message": "Dovrebbe essere abilitato su aerei, rover e barche. NON deve essere abilitato sui multirotore! Sui multirotore, quando Airmode è attivo, i motori non si fermeranno."
     },
     "reversibleEscWarning": {
         "message": "When Reversible Motors are used, set Motors IDLE power to 0%"
@@ -5401,7 +5401,7 @@
         "message": "Enable if the motor direction is reversed and the props are mounted in the opposite direction."
     },
     "mixer_control_profile_linking": {
-        "message": "Control Profile will use same index as Mixer Profile index"
+        "message": "Il Control Profile userà lo stesso indice del Mixer Profile"
     },
     "mixer_control_profile_linking_hint": {
         "message": "mixer_control_profile_linking: Enable on both Mixer Profile if you want Control Profile switching handled by Mixer Profile switching(Recommend in vtol/mixed plaform type setup)"
