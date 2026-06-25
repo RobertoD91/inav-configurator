@@ -3604,7 +3604,7 @@
         "message": "Nome Pilota"
     },
     "osdElement_PILOT_LOGO_HELP": {
-        "message": "Shows your small pilot logo in the OSD, where you position it. This requires a custom font with your pilot logo."
+        "message": "Mostra il tuo piccolo logo pilota nell'OSD, nella posizione che scegli. Richiede un font personalizzato con il tuo logo pilota."
     },
     "osd_use_pilot_logo": {
         "message": "Usa logo pilota"
@@ -3916,355 +3916,355 @@
         "message": "Maps & radars allow laying out additional elements on top of them as long as they don't overlap any of the map parts visible in the preview."
     },
     "osdElement_ONTIME_FLYTIME": {
-        "message": "On Time / Fly Time"
+        "message": "Tempo acceso / Tempo di volo"
     },
     "osdElement_RSSI_VALUE": {
-        "message": "RSSI (Signal Strength)"
+        "message": "RSSI (potenza segnale)"
     },
     "osdElement_RSSI_VALUE_HELP": {
-        "message": "Shows the quality of the signal received from the RC radio (the higher the better)."
+        "message": "Mostra la qualità del segnale ricevuto dalla radio RC (più alto è, meglio è)."
     },
     "osdElement_MAIN_BATT_VOLTAGE": {
-        "message": "Battery Voltage"
+        "message": "Tensione batteria"
     },
     "osdElement_SAG_COMP_MAIN_BATT_VOLTAGE": {
-        "message": "Sag-compensated Battery Voltage"
+        "message": "Tensione batteria compensata (sag)"
     },
     "osdElement_SAG_COMP_MAIN_BATT_VOLTAGE_HELP": {
-        "message": "Calculated voltage the battery should be at without load (simulates ideal battery)"
+        "message": "Tensione calcolata che la batteria dovrebbe avere senza carico (simula una batteria ideale)"
     },
     "osdElement_MESSAGES": {
-        "message": "System Messages"
+        "message": "Messaggi di sistema"
     },
     "osdElement_MESSAGES_HELP": {
-        "message": "Shows different system messages like warnings, hardware failures and extended details of the current flight mode (e.g. AUTOTUNE and AUTOTRIM modes and RTH stages)."
+        "message": "Mostra vari messaggi di sistema come avvisi, guasti hardware e dettagli estesi sulla modalità di volo corrente (es. modalità AUTOTUNE e AUTOTRIM e fasi RTH)."
     },
     "osdElement_MAIN_BATT_CELL_VOLTAGE": {
-        "message": "Battery Cell Voltage"
+        "message": "Tensione cella batteria"
     },
     "osdElement_SAG_COMP_MAIN_BATT_CELL_VOLTAGE": {
-        "message": "Sag-compensated Battery Cell Voltage"
+        "message": "Tensione cella compensata (sag)"
     },
     "osdElement_SAG_COMP_MAIN_BATT_CELL_VOLTAGE_HELP": {
-        "message": "Calculated average cell voltage the battery should be at without load (simulates ideal battery)"
+        "message": "Tensione media per cella calcolata che la batteria dovrebbe avere senza carico (simula una batteria ideale)"
     },
     "osdElement_MAIN_BATT_REMAINING_PERCENTAGE": {
-        "message": "Battery Remaining Percentage"
+        "message": "Percentuale batteria rimanente"
     },
     "osdElement_MAIN_BATT_REMAINING_CAPACITY": {
-        "message": "Battery Remaining Capacity"
+        "message": "Capacità batteria rimanente"
     },
     "osdElement_REMAINING_FLIGHT_TIME_HELP": {
-        "message": "Estimated remaining flight time before the aircraft needs to go back home based on remaining battery energy, average power and distance to home (Fixed wing only, please read the documentation)"
+        "message": "Tempo di volo residuo stimato prima che il velivolo debba tornare a casa, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
     },
     "osdElement_REMAINING_FLIGHT_DISTANCE_HELP": {
-        "message": "Estimated remaining flight travel distance before the aircraft needs to go back home based on remaining battery energy, average power and distance to home (Fixed wing only, please read the documentation)"
+        "message": "Distanza di volo residua stimata prima che il velivolo debba tornare a casa, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
     },
     "osdElement_MAIN_BATT_CELL_VOLTAGE_HELP": {
-        "message": "Shows the average cell voltage from the main battery"
+        "message": "Mostra la tensione media per cella della batteria principale"
     },
     "osdElement_MAH_DRAWN": {
-        "message": "mAh drawn"
+        "message": "mAh consumati"
     },
     "osdElement_EFFICIENCY_MAH": {
-        "message": "Efficiency mAh/Km"
+        "message": "Efficienza mAh/Km"
     },
     "osdElement_EFFICIENCY_WH": {
-        "message": "Efficiency Wh/Km"
+        "message": "Efficienza Wh/Km"
     },
     "osdElement_PLIMIT_REMAINING_BURST_TIME": {
-        "message": "Remaining burst time"
+        "message": "Tempo burst rimanente"
     },
     "osdElement_PLIMIT_ACTIVE_CURRENT_LIMIT": {
-        "message": "Active current limit"
+        "message": "Limite corrente attivo"
     },
     "osdElement_PLIMIT_ACTIVE_POWER_LIMIT": {
-        "message": "Active power limit"
+        "message": "Limite potenza attivo"
     },
     "osdElement_THROTTLE_POSITION_HELP": {
-        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by INAV."
+        "message": "Mostra la posizione dello stick throttle nelle modalità di volo in cui <i>esso</i> controlla l'uscita throttle. Nelle modalità di navigazione mostra il valore di throttle comandato da INAV."
     },
     "osdElement_SCALED_THROTTLE_POSITION_HELP": {
-        "message": "Shows the throttle stick position in flight modes where <i>it</i> controls the throttle output. On navigation modes, it shows the throttle value commanded by INAV. This throttle is scaled based on the idle throttle and max throttle."
+        "message": "Mostra la posizione dello stick throttle nelle modalità di volo in cui <i>esso</i> controlla l'uscita throttle. Nelle modalità di navigazione mostra il valore di throttle comandato da INAV. Questo throttle è scalato in base al throttle minimo (idle) e massimo."
     },
     "osdElement_GPS_SPEED": {
-        "message": "Ground Speed"
+        "message": "Velocità al suolo"
     },
     "osdElement_GPS_SPEED_HELP": {
-        "message": "Shows GPS ground speed."
+        "message": "Mostra la velocità al suolo GPS."
     },
     "osdElement_GPS_MAX_SPEED": {
-        "message": "GPS Maximum Speed"
+        "message": "Velocità massima GPS"
     },
     "osdElement_GPS_MAX_SPEED_HELP": {
-        "message": "Shows highest GPS ground speed."
+        "message": "Mostra la massima velocità al suolo GPS."
     },
     "osdElement_MSL_ALTITUDE": {
-        "message": "MSL Altitude"
+        "message": "Altitudine MSL"
     },
     "osdElement_MSL_ALTITUDE_HELP": {
-        "message": "Altitude above Mean Sea Level"
+        "message": "Altitudine sul livello medio del mare"
     },
     "osdElement_3D_SPEED": {
-        "message": "3D Speed"
+        "message": "Velocità 3D"
     },
     "osdElement_3D_SPEED_HELP": {
-        "message": "Shows 3D speed considering both horizontal and vertical speed."
+        "message": "Mostra la velocità 3D considerando sia la componente orizzontale sia quella verticale."
     },
     "osdElement_3D_MAX_SPEED": {
-        "message": "3D Maximum Speed"
+        "message": "Velocità massima 3D"
     },
     "osdElement_3D_MAX_SPEED_HELP": {
-        "message": "Shows highest 3D speed considering both horizontal and vertical speed."
+        "message": "Mostra la massima velocità 3D considerando sia la componente orizzontale sia quella verticale."
     },
     "osdElement_AIR_MAX_SPEED": {
-        "message": "Maximum Air Speed"
+        "message": "Velocità aria massima"
     },
     "osdElement_AIR_MAX_SPEED_HELP": {
-        "message": "Shows highest air speed."
+        "message": "Mostra la massima velocità aria."
     },
     "osdElement_GPS_SATS": {
-        "message": "GPS Satellites"
+        "message": "Satelliti GPS"
     },
     "osdElement_GPS_SATS_HELP": {
-        "message": "Shows the number of GPS satellites located by the GPS receiver."
+        "message": "Mostra il numero di satelliti GPS individuati dal ricevitore GPS."
     },
     "osdElement_GPS_HDOP": {
         "message": "GPS HDOP"
     },
     "osdElement_GPS_HDOP_HELP": {
-        "message": "Shows the Horizontal Dilution Of Precision from the GPS. The lower, the more accurate the GPS fix is."
+        "message": "Mostra l'HDOP (Horizontal Dilution Of Precision) del GPS. Più è basso, più accurato è il fix GPS."
     },
     "osdElement_PLUS_CODE": {
-        "message": "Plus Code (latitude + longitude)"
+        "message": "Plus Code (latitudine + longitudine)"
     },
     "osdElement_PLUS_CODE_HELP": {
-        "message": "Plus codes encode both latitude and longitude on a single value that can be entered directly in Google Maps. It provides the same level of precision than latitude and longitude while using less screen space."
+        "message": "I Plus Code codificano latitudine e longitudine in un unico valore inseribile direttamente in Google Maps. Offrono lo stesso livello di precisione di latitudine e longitudine occupando meno spazio sullo schermo."
     },
     "osdElement_AZIMUTH": {
-        "message": "Azimuth"
+        "message": "Azimut"
     },
     "osdElement_AZIMUTH_HELP": {
-        "message": "Azimuth is the direction of the aircraft in relation to the home point. It's useful to keep the aircraft on the correct course or to keep the aircraft in front of a fixed directional antenna."
+        "message": "L'azimut è la direzione del velivolo rispetto al punto Home. Utile per mantenere il velivolo sulla rotta corretta o davanti a un'antenna direzionale fissa."
     },
     "osdElement_TRIP_DIST": {
-        "message": "Trip distance"
+        "message": "Distanza percorsa"
     },
     "osdElement_VARIO_HELP": {
-        "message": "Shows vertical speed using up or down arrows. Each arrow represents 10cm (~4 inches) per second."
+        "message": "Mostra la velocità verticale con frecce su o giù. Ogni freccia rappresenta 10 cm (~4 pollici) al secondo."
     },
     "osdElement_VERTICAL_SPEED_INDICATOR": {
-        "message": "Vertical Speed Indicator"
+        "message": "Indicatore velocità verticale"
     },
     "osdElement_VERTICAL_SPEED_INDICATOR_HELP": {
-        "message": "Shows vertical speed using a number"
+        "message": "Mostra la velocità verticale con un numero"
     },
     "osdElement_G_FORCE": {
-        "message": "g force"
+        "message": "Forza g"
     },
     "osdElement_G_FORCE_HELP": {
-        "message": "Shows the g force taking into account all axes"
+        "message": "Mostra la forza g considerando tutti gli assi"
     },
     "osdElement_G_FORCE_X": {
-        "message": "Longitudinal g force in body frame (X)"
+        "message": "Forza g longitudinale (X)"
     },
     "osdElement_G_FORCE_X_HELP": {
-        "message": "Shows the g force in the X axis (longitudinal)"
+        "message": "Mostra la forza g sull'asse X (longitudinale)"
     },
     "osdElement_G_FORCE_Y": {
-        "message": "Lateral g force in body frame (Y)"
+        "message": "Forza g laterale (Y)"
     },
     "osdElement_G_FORCE_Y_HELP": {
-        "message": "Shows the g force in the Y axis (lateral)"
+        "message": "Mostra la forza g sull'asse Y (laterale)"
     },
     "osdElement_G_FORCE_Z": {
-        "message": "Vertical g force in body frame (Z)"
+        "message": "Forza g verticale (Z)"
     },
     "osdElement_G_FORCE_Z_HELP": {
-        "message": "Shows the g force in the Z axis (vertical)"
+        "message": "Mostra la forza g sull'asse Z (verticale)"
     },
     "osdElement_ROLL_PIDS": {
-        "message": "Roll PIDs"
+        "message": "PID Roll"
     },
     "osdElement_PITCH_PIDS": {
-        "message": "Pitch PIDs"
+        "message": "PID Pitch"
     },
     "osdElement_YAW_PIDS": {
-        "message": "Yaw PIDs"
+        "message": "PID Yaw"
     },
     "osdElement_ONTIME_FLYTIME_HELP": {
-        "message": "Shows \"On Time\" while unarmed and \"Fly Time\" while armed."
+        "message": "Mostra \"On Time\" quando disarmato e \"Fly Time\" quando armato."
     },
     "osdElement_RTC_TIME": {
-        "message": "Time of the Day"
+        "message": "Ora del giorno"
     },
     "osdElement_RTC_TIME_HELP": {
-        "message": "Shows the current time, as retrieved from the GPS or set via the radio."
+        "message": "Mostra l'ora corrente, ottenuta dal GPS o impostata via radio."
     },
     "osdElement_RC_SOURCE": {
-        "message": "RC source"
+        "message": "Sorgente RC"
     },
     "osdElement_RC_SOURCE_HELP": {
-        "message": "Shows the current RC source, STD or MSP (useful when using MSP override)"
+        "message": "Mostra la sorgente RC corrente, STD o MSP (utile quando si usa l'override MSP)"
     },
     "osdElement_VTX_POWER": {
-        "message": "Video TX power level"
+        "message": "Livello potenza VTX"
     },
     "osdElement_VTX_POWER_HELP": {
-        "message": "Shows the current VTX power level. Blinks when the corresponding RC adjustment is selected"
+        "message": "Mostra il livello di potenza VTX corrente. Lampeggia quando è selezionata la relativa regolazione RC"
     },
     "osdElement_ESC_RPM": {
-        "message": "Motor RPM from ESC telemetry"
+        "message": "RPM motore da telemetria ESC"
     },
     "osdElement_GLIDESLOPE": {
-        "message": "Glideslope"
+        "message": "Pendenza di planata"
     },
     "osdElement_GLIDESLOPE_HELP": {
-        "message": "Amount of horizontal distance traveled per unit of lost altitude"
+        "message": "Distanza orizzontale percorsa per unità di quota persa"
     },
     "osdElement_PAN_SERVO_CENTRED": {
-        "message": "Pan Servo Centred"
+        "message": "Servo pan centrato"
     },
     "osdElement_PAN_SERVO_CENTRED_HELP": {
-        "message": "Displays if the pan servo is centred (0) or offset (arrows). Check the <b>osd_pan_servo_</b> settings for configuring the pan servo."
+        "message": "Indica se il servo pan è centrato (0) o spostato (frecce). Controlla le impostazioni <b>osd_pan_servo_</b> per configurare il servo pan."
     },
     "osdElement_VTX_CHANNEL": {
-        "message": "Video TX Band and Channel"
+        "message": "Banda e canale VTX"
     },
     "osdElement_VTX_CHANNEL_HELP": {
-        "message": "Shows the current band and channel of the VTX. Requires either a VTX with SmartAudio or Tramp or either a VTX integrated in the flight controller."
+        "message": "Mostra banda e canale correnti del VTX. Richiede un VTX con SmartAudio o Tramp, oppure un VTX integrato nel flight controller."
     },
     "osdElement_RSSI_DBM": {
-        "message": "RX RSSI in dBm"
+        "message": "RSSI RX in dBm"
     },
     "osdElement_LQ_UPLINK": {
-        "message": "RX Uplink Quality %"
+        "message": "Qualità uplink RX %"
     },
     "osdElement_LQ_UPLINK_HELP": {
-        "message": "If using CRSF, use Crossfire LQ Format setting to select format type."
+        "message": "Se usi CRSF, usa l'impostazione Crossfire LQ Format per selezionare il tipo di formato."
     },
     "osdElement_LQ_DOWNLINK": {
-        "message": "RX Downlink Quality %"
+        "message": "Qualità downlink RX %"
     },
     "osdElement_SNR_DB": {
-        "message": "RX Uplink SNR in dB"
+        "message": "SNR uplink RX in dB"
     },
     "osdElement_SNR_DB_HELP": {
-        "message": "Shown only when SNR goes below alarm level. At 0dB, received signal level equals noise floor level."
+        "message": "Mostrato solo quando l'SNR scende sotto il livello di allarme. A 0 dB, il livello del segnale ricevuto è pari al rumore di fondo."
     },
     "osdElement_TX_POWER_UPLINK": {
-        "message": "TX power in mW"
+        "message": "Potenza TX in mW"
     },
     "osdElement_OSD_RX_POWER_DOWNLINK": {
-        "message": "RX power in mW"
+        "message": "Potenza RX in mW"
     },
     "osdElement_MAP_NORTH": {
-        "message": "Map (Up is north)"
+        "message": "Mappa (in alto il nord)"
     },
     "osdElement_MAP_TAKEOFF": {
-        "message": "Map (Up is the takeoff direction)"
+        "message": "Mappa (in alto la direzione di decollo)"
     },
     "osdElement_RADAR": {
         "message": "Radar"
     },
     "osdElement_MAP_SCALE": {
-        "message": "Map Scale"
+        "message": "Scala mappa"
     },
     "osdElement_MAP_SCALE_HELP": {
-        "message": "Scale of the currently shown map/radar."
+        "message": "Scala della mappa/radar attualmente mostrata."
     },
     "osdElement_MAP_REFERENCE": {
-        "message": "Map Reference"
+        "message": "Riferimento mappa"
     },
     "osdElement_MAP_REFERENCE_HELP": {
-        "message": "Reference (direction that points up) of the current map. N for North and T for takeoff direction."
+        "message": "Riferimento (direzione che punta verso l'alto) della mappa corrente. N per Nord e T per direzione di decollo."
     },
     "osdElement_FORMATION_FLIGHT": {
-        "message": "Inav radar fixed"
+        "message": "Volo in formazione (Inav radar)"
     },
     "osdElement_FORMATION_FLIGHT_HELP": {
-        "message": "The closest aircraft from Inav radar/Formation flight"
+        "message": "Il velivolo più vicino dal radar Inav / volo in formazione"
     },
     "osdElement_WIND_SPEED_HORIZONTAL": {
-        "message": "Horizontal wind speed"
+        "message": "Velocità vento orizzontale"
     },
     "osdElement_WIND_SPEED_HORIZONTAL_HELP": {
-        "message": "Shows estimated horizontal wind speed and direction."
+        "message": "Mostra velocità e direzione stimate del vento orizzontale."
     },
     "osdElement_WIND_SPEED_VERTICAL": {
-        "message": "Vertical wind speed"
+        "message": "Velocità vento verticale"
     },
     "osdElement_WIND_SPEED_VERTICAL_HELP": {
-        "message": "Shows estimated vertical wind speed and direction (up or down)."
+        "message": "Mostra velocità e direzione stimate del vento verticale (su o giù)."
     },
     "osdElement_ACTIVE_PROFILE": {
-        "message": "Show the active profile"
+        "message": "Mostra il profilo attivo"
     },
     "osdElement_LEVEL_PIDS": {
-        "message": "Level PIDs"
+        "message": "PID Level"
     },
     "osdElement_POS_XY_PIDS": {
-        "message": "Position XY PIDs"
+        "message": "PID Posizione XY"
     },
     "osdElement_POS_Z_PIDS": {
-        "message": "Position Z PIDs"
+        "message": "PID Posizione Z"
     },
     "osdElement_VEL_XY_PIDS": {
-        "message": "Velocity XY PIDs"
+        "message": "PID Velocità XY"
     },
     "osdElement_VEL_Z_PIDS": {
-        "message": "Velocity Z PIDs"
+        "message": "PID Velocità Z"
     },
     "osdElement_FW_ALT_PID_OUTPUTS": {
-        "message": "FW Altitude PID controller outputs"
+        "message": "Uscite PID altitudine FW"
     },
     "osdElement_FW_POS_PID_OUTPUTS": {
-        "message": "FW Position PID controller outputs"
+        "message": "Uscite PID posizione FW"
     },
     "osdElement_MC_VEL_X_PID_OUTPUTS": {
-        "message": "MC Velocity X PID controller outputs"
+        "message": "Uscite PID velocità X MC"
     },
     "osdElement_MC_VEL_Y_PID_OUTPUTS": {
-        "message": "MC Velocity Y PID controller outputs"
+        "message": "Uscite PID velocità Y MC"
     },
     "osdElement_MC_VEL_Z_PID_OUTPUTS": {
-        "message": "MC Velocity Z PID controller outputs"
+        "message": "Uscite PID velocità Z MC"
     },
     "osdElement_MC_POS_XYZ_P_OUTPUTS": {
-        "message": "MC Position XYZ P controllers outputs"
+        "message": "Uscite controller P posizione XYZ MC"
     },
     "osdElement_IMU_TEMPERATURE": {
-        "message": "IMU Temperature"
+        "message": "Temperatura IMU"
     },
     "osdElement_IMU_TEMPERATURE_HELP": {
-        "message": "Temperature of the IMU"
+        "message": "Temperatura dell'IMU"
     },
     "osdElement_BARO_TEMPERATURE": {
-        "message": "Baro Temperature"
+        "message": "Temperatura barometro"
     },
     "osdElement_BARO_TEMPERATURE_HELP": {
-        "message": "Temperature of the barometer"
+        "message": "Temperatura del barometro"
     },
     "osdElement_ESC_TEMPERATURE": {
-        "message": "ESC Temperature"
+        "message": "Temperatura ESC"
     },
     "osdElement_ESC_TEMPERATURE_HELP": {
-        "message": "Temperature of the ESC read from DSHOT telemetry"
+        "message": "Temperatura dell'ESC letta dalla telemetria DSHOT"
     },
     "osdGroupSwitchIndicators": {
         "message": "Indicatori Interruttori"
     },
     "osdElement_SWITCH_INDICATOR_0": {
-        "message": "Switch Indicator 1"
+        "message": "Indicatore switch 1"
     },
     "osdElement_SWITCH_INDICATOR_1": {
-        "message": "Switch Indicator 2"
+        "message": "Indicatore switch 2"
     },
     "osdElement_SWITCH_INDICATOR_2": {
-        "message": "Switch Indicator 3"
+        "message": "Indicatore switch 3"
     },
     "osdElement_SWITCH_INDICATOR_3": {
-        "message": "Switch Indicator 4"
+        "message": "Indicatore switch 4"
     },
     "osd_pan_servo_settings": {
         "message": "Pan Servo OSD Settings"
@@ -4300,55 +4300,55 @@
         "message": "Global Variables"
     },
     "osdElement_GVAR_0": {
-        "message": "Global Variable 0"
+        "message": "Variabile globale 0"
     },
     "osdElement_GVAR_1": {
-        "message": "Global Variable 1"
+        "message": "Variabile globale 1"
     },
     "osdElement_GVAR_2": {
-        "message": "Global Variable 2"
+        "message": "Variabile globale 2"
     },
     "osdElement_GVAR_3": {
-        "message": "Global Variable 3"
+        "message": "Variabile globale 3"
     },
     "osdElement_SENSOR1_TEMPERATURE": {
-        "message": "Temperature sensor 1"
+        "message": "Sensore di temperatura 1"
     },
     "osdElement_SENSOR2_TEMPERATURE": {
-        "message": "Temperature sensor 2"
+        "message": "Sensore di temperatura 2"
     },
     "osdElement_SENSOR3_TEMPERATURE": {
-        "message": "Temperature sensor 3"
+        "message": "Sensore di temperatura 3"
     },
     "osdElement_SENSOR4_TEMPERATURE": {
-        "message": "Temperature sensor 4"
+        "message": "Sensore di temperatura 4"
     },
     "osdElement_SENSOR5_TEMPERATURE": {
-        "message": "Temperature sensor 5"
+        "message": "Sensore di temperatura 5"
     },
     "osdElement_SENSOR6_TEMPERATURE": {
-        "message": "Temperature sensor 6"
+        "message": "Sensore di temperatura 6"
     },
     "osdElement_SENSOR7_TEMPERATURE": {
-        "message": "Temperature sensor 7"
+        "message": "Sensore di temperatura 7"
     },
     "osdElement_SENSOR8_TEMPERATURE": {
-        "message": "Temperature sensor 8"
+        "message": "Sensore di temperatura 8"
     },
     "osdSettingMainVoltageDecimals": {
         "message": "Main voltage decimals"
     },
     "osdElement_OSD_RANGEFINDER": {
-        "message": "Rangefinder distance"
+        "message": "Distanza rangefinder"
     },
     "osdElement_COURSE_NEXT_GEOZONE": {
-        "message": "Course to next Geozone"
+        "message": "Rotta verso la prossima geozone"
     },
     "osdElement_HOR_DIST_TO_NEXT_GEOZONE": {
-        "message": "Horizontal distance to the next geozone"
+        "message": "Distanza orizzontale dalla prossima geozone"
     },
     "osdElement_VERT_DIST_TO_NEXT_GEOZONE": {
-        "message": "Vertical distance to the next geozone"
+        "message": "Distanza verticale dalla prossima geozone"
     },
     "osdSettingPLUS_CODE_DIGITS_HELP": {
         "message": "Precision at the equator: 10=13.9x13.9m; 11=2.8x3.5m; 12=56x87cm; 13=11x22cm."
@@ -6302,5 +6302,506 @@
     },
     "searchPlaceholder": {
         "message": "Cerca impostazioni..."
+    },
+    "osdElement_POWER_SUPPLY_IMPEDANCE": {
+        "message": "Impedenza alimentazione"
+    },
+    "osdElement_REMAINING_FLIGHT_TIME": {
+        "message": "Tempo di volo rimanente"
+    },
+    "osdElement_REMAINING_FLIGHT_DISTANCE": {
+        "message": "Distanza di volo rimanente"
+    },
+    "osdElement_THROTTLE_GAUGE": {
+        "message": "Indicatore throttle"
+    },
+    "osdElement_THROTTLE_POSITION": {
+        "message": "Posizione throttle"
+    },
+    "osdElement_SCALED_THROTTLE_POSITION": {
+        "message": "Posizione throttle scalata"
+    },
+    "osdElement_CRAFT_NAME": {
+        "message": "Nome modello"
+    },
+    "osdElement_PILOT_NAME": {
+        "message": "Nome pilota"
+    },
+    "osdElement_PILOT_LOGO": {
+        "message": "Logo pilota"
+    },
+    "osdElement_FLYMODE": {
+        "message": "Modalità di volo"
+    },
+    "osdElement_HEADING": {
+        "message": "Direzione (heading)"
+    },
+    "osdElement_HEADING_GRAPH": {
+        "message": "Grafico direzione"
+    },
+    "osdElement_AIR_SPEED": {
+        "message": "Velocità aria"
+    },
+    "osdElement_MIN_GROUND_SPEED": {
+        "message": "Velocità al suolo minima"
+    },
+    "osdElement_GLIDE_TIME": {
+        "message": "Tempo di planata"
+    },
+    "osdElement_GLIDE_RANGE": {
+        "message": "Autonomia in planata"
+    },
+    "osdElement_MISSION_INFO": {
+        "message": "Info missione"
+    },
+    "osdElement_VERSION": {
+        "message": "Versione"
+    },
+    "osdElement_MULTI FUNCTION STATUS": {
+        "message": "Stato multifunzione"
+    },
+    "osdElement_BLACKBOX": {
+        "message": "Blackbox"
+    },
+    "osdElement_ALTITUDE": {
+        "message": "Altitudine"
+    },
+    "osdElement_VARIO": {
+        "message": "Variometro"
+    },
+    "osdElement_ONTIME": {
+        "message": "Tempo acceso"
+    },
+    "osdElement_FLYTIME": {
+        "message": "Tempo di volo"
+    },
+    "osdElement_CROSSHAIRS": {
+        "message": "Mirino"
+    },
+    "osdElement_ARTIFICIAL_HORIZON": {
+        "message": "Orizzonte artificiale"
+    },
+    "osdElement_HORIZON_SIDEBARS": {
+        "message": "Barre laterali orizzonte"
+    },
+    "osdElement_PITCH_ANGLE": {
+        "message": "Angolo di pitch"
+    },
+    "osdElement_ROLL_ANGLE": {
+        "message": "Angolo di roll"
+    },
+    "osdElement_CURRENT_DRAW": {
+        "message": "Assorbimento corrente"
+    },
+    "osdElement_WH_DRAWN": {
+        "message": "Wh consumati"
+    },
+    "osdElement_POWER": {
+        "message": "Potenza"
+    },
+    "osdElement_CLIMB_EFFICIENCY": {
+        "message": "Efficienza in salita"
+    },
+    "osdElement_LONGITUDE": {
+        "message": "Longitudine"
+    },
+    "osdElement_LATITUDE": {
+        "message": "Latitudine"
+    },
+    "osdElement_DIRECTION_TO_HOME": {
+        "message": "Direzione verso Home"
+    },
+    "osdElement_HOME_HEADING_ERROR": {
+        "message": "Errore direzione Home"
+    },
+    "osdElement_DISTANCE_TO_HOME": {
+        "message": "Distanza da Home"
+    },
+    "osdElement_ODOMETER": {
+        "message": "Contachilometri"
+    },
+    "osdElement_COURSE_HOLD_ERROR": {
+        "message": "Errore Course Hold"
+    },
+    "osdElement_COURSE_HOLD_ADJUSTMENT": {
+        "message": "Regolazione Course Hold"
+    },
+    "osdElement_GROUND COURSE": {
+        "message": "Rotta al suolo"
+    },
+    "osdElement_ADSB_WARNING_MESSAGE": {
+        "message": "Messaggio di avviso ADSB"
+    },
+    "osdElement_ADSB_INFO": {
+        "message": "Info ADSB"
+    },
+    "osdElement_CROSS TRACK ERROR": {
+        "message": "Errore di scarto rotta (cross track)"
+    },
+    "osdElement_RX_POWER_DOWNLINK": {
+        "message": "Potenza downlink RX"
+    },
+    "osdElement_RX_BAND": {
+        "message": "Banda RX"
+    },
+    "osdElement_RX_MODE": {
+        "message": "Modalità RX"
+    },
+    "osdElement_CUSTOM_ELEMENT_1": {
+        "message": "Elemento personalizzato 1"
+    },
+    "osdElement_CUSTOM_ELEMENT_2": {
+        "message": "Elemento personalizzato 2"
+    },
+    "osdElement_CUSTOM_ELEMENT_3": {
+        "message": "Elemento personalizzato 3"
+    },
+    "osdElement_CUSTOM_ELEMENT_4": {
+        "message": "Elemento personalizzato 4"
+    },
+    "osdElement_CUSTOM_ELEMENT_5": {
+        "message": "Elemento personalizzato 5"
+    },
+    "osdElement_CUSTOM_ELEMENT_6": {
+        "message": "Elemento personalizzato 6"
+    },
+    "osdElement_CUSTOM_ELEMENT_7": {
+        "message": "Elemento personalizzato 7"
+    },
+    "osdElement_CUSTOM_ELEMENT_8": {
+        "message": "Elemento personalizzato 8"
+    },
+    "osdElement_BOARD_ALIGNMENT_ROLL": {
+        "message": "Allineamento board Roll"
+    },
+    "osdElement_BOARD_ALIGNMENT_PITCH": {
+        "message": "Allineamento board Pitch"
+    },
+    "osdElement_CONTROL_SMOOTHNESS": {
+        "message": "Fluidità controlli"
+    },
+    "osdElement_MISSION_INDEX": {
+        "message": "Indice missione"
+    },
+    "changeMixerProfileReboot": {
+        "message": "La modifica dei profili mixer richiede un riavvio. Continuare?"
+    },
+    "configurationPowerLimits": {
+        "message": "Limitazione potenza"
+    },
+    "configurationPowerLimitsHelp": {
+        "message": "Limita la corrente e la potenza assorbite dalla batteria per proteggere batteria ed ESC. Imposta 0 per disabilitare. Unità: dA (deci-ampere) = A×10, dW (deci-watt) = W×10, ds (deci-secondi) = s×10."
+    },
+    "configurationPowerLimitsNote": {
+        "message": "Protegge la batteria dalla sovracorrente riducendo dolcemente il throttle. Richiede un sensore di corrente. Imposta i limiti continuo e di burst in base alle specifiche della tua batteria."
+    },
+    "configurationLimitContCurrent": {
+        "message": "Limite corrente continua (dA)"
+    },
+    "configurationLimitContCurrentHelp": {
+        "message": "Massimo assorbimento di corrente sostenuto in deci-ampere (dA). Esempio: 500 = 50A. Imposta 0 per disabilitare la limitazione di corrente."
+    },
+    "configurationLimitBurstCurrent": {
+        "message": "Limite corrente di burst (dA)"
+    },
+    "configurationLimitBurstCurrentHelp": {
+        "message": "Corrente più alta consentita per brevi burst (accelerate, salite). Esempio: 750 = 75A. Dovrebbe essere >= al limite continuo."
+    },
+    "configurationLimitBurstCurrentTime": {
+        "message": "Durata corrente di burst (ds)"
+    },
+    "configurationLimitBurstCurrentTimeHelp": {
+        "message": "Durata per cui è consentita la corrente di burst in deci-secondi (ds). Esempio: 100 = 10 secondi. Dopo questo tempo il limite scende a quello continuo."
+    },
+    "configurationLimitBurstCurrentFalldownTime": {
+        "message": "Tempo di rientro corrente di burst (ds)"
+    },
+    "configurationLimitBurstCurrentFalldownTimeHelp": {
+        "message": "Tempo di discesa graduale dal limite di burst a quello continuo in deci-secondi (ds). Esempio: 20 = 2 secondi."
+    },
+    "configurationLimitContPower": {
+        "message": "Limite potenza continua (dW)"
+    },
+    "configurationLimitContPowerHelp": {
+        "message": "Massima potenza assorbita sostenuta in deci-watt (dW). Esempio: 8000 = 800W. Imposta 0 per disabilitare la limitazione di potenza. Richiede la misura della tensione."
+    },
+    "configurationLimitBurstPower": {
+        "message": "Limite potenza di burst (dW)"
+    },
+    "configurationLimitBurstPowerHelp": {
+        "message": "Potenza più alta consentita per brevi burst. Esempio: 10000 = 1000W. Dovrebbe essere >= al limite continuo."
+    },
+    "configurationLimitBurstPowerTime": {
+        "message": "Durata potenza di burst (ds)"
+    },
+    "configurationLimitBurstPowerTimeHelp": {
+        "message": "Durata per cui è consentita la potenza di burst in deci-secondi (ds). Esempio: 50 = 5 secondi."
+    },
+    "configurationLimitBurstPowerFalldownTime": {
+        "message": "Tempo di rientro potenza di burst (ds)"
+    },
+    "configurationLimitBurstPowerFalldownTimeHelp": {
+        "message": "Tempo di discesa graduale dal limite di burst a quello continuo di potenza in deci-secondi (ds). Esempio: 10 = 1 secondo."
+    },
+    "mixerWizardLocateInfo": {
+        "message": "Clicca un motore per identificarlo"
+    },
+    "mixerWizardLocateHint": {
+        "message": "Clicca per far suonare e muovere questo motore"
+    },
+    "mixerWizardIntro": {
+        "message": "Questa procedura guidata ti aiuta a identificare quale motore è collegato a ciascuna uscita. La procedura attiverà ogni motore a turno: clicca dove vedi il movimento."
+    },
+    "mixerWizardStep1": {
+        "message": "Rimuovi tutte le eliche per sicurezza"
+    },
+    "mixerWizardStep2": {
+        "message": "Collega una batteria per alimentare gli ESC"
+    },
+    "mixerWizardStep3": {
+        "message": "Assicurati di poter vedere/sentire tutti i motori"
+    },
+    "mixerWizardLocating": {
+        "message": "Motore"
+    },
+    "mixerWizardClickPosition": {
+        "message": "Clicca dove vedi muoversi questo motore."
+    },
+    "mixerWizardComplete": {
+        "message": "Tutti i motori identificati! Clicca Applica per salvare la mappatura dei motori."
+    },
+    "mixerWizardStart": {
+        "message": "Avvia procedura"
+    },
+    "mixerWizardStop": {
+        "message": "Arresto di emergenza"
+    },
+    "layerManagementTitle": {
+        "message": "Livelli mappa"
+    },
+    "layerLoadGeoFile": {
+        "message": "Carica file GEO"
+    },
+    "layerDragDropHint": {
+        "message": "oppure trascina e rilascia i file GEO sulla mappa"
+    },
+    "layerConfirmDelete": {
+        "message": "Sei sicuro di voler eliminare questo livello?"
+    },
+    "layerLoadError": {
+        "message": "Errore nel caricamento del file GEO. Controlla il formato del file."
+    },
+    "layerParseError": {
+        "message": "Errore nell'analisi del file GEO. Formato non supportato o dati corrotti."
+    },
+    "backupRestoreButtonBackup": {
+        "message": "Backup configurazione"
+    },
+    "backupRestoreButtonRestore": {
+        "message": "Ripristina configurazione"
+    },
+    "backupRestoreOpenBackupsFolder": {
+        "message": "Apri backup"
+    },
+    "backupRestoreStatusConnecting": {
+        "message": "Connessione al flight controller..."
+    },
+    "backupRestoreStatusEnteringCli": {
+        "message": "Ingresso in modalità CLI..."
+    },
+    "backupRestoreStatusReadingConfig": {
+        "message": "Lettura configurazione (diff all)..."
+    },
+    "backupRestoreStatusSavingFile": {
+        "message": "Salvataggio file di backup..."
+    },
+    "backupRestoreStatusExitingCli": {
+        "message": "Uscita dalla CLI (riavvio)..."
+    },
+    "backupRestoreStatusRestoringConfig": {
+        "message": "Ripristino configurazione..."
+    },
+    "backupRestoreStatusSaving": {
+        "message": "Salvataggio e riavvio..."
+    },
+    "backupRestoreStatusBackupComplete": {
+        "message": "Backup completato. Proseguo con il flashing..."
+    },
+    "backupRestoreBackupSaved": {
+        "message": "Backup della configurazione salvato in: $1"
+    },
+    "backupRestoreAutoBackupSaved": {
+        "message": "Backup automatico salvato in: $1"
+    },
+    "backupRestoreBackupComplete": {
+        "message": "Backup completato."
+    },
+    "backupRestoreBackupCancelled": {
+        "message": "Backup annullato."
+    },
+    "backupRestoreBackupFailed": {
+        "message": "Backup fallito."
+    },
+    "backupRestoreRestoreComplete": {
+        "message": "Configurazione ripristinata. Il flight controller si sta riavviando."
+    },
+    "backupRestoreRestoreCancelled": {
+        "message": "Ripristino annullato."
+    },
+    "backupRestoreRestoreFailed": {
+        "message": "Ripristino fallito."
+    },
+    "backupRestoreFlashCompleteBackupSaved": {
+        "message": "Flashing completato. Il backup della configurazione è stato salvato."
+    },
+    "backupRestoreOverlayTitle": {
+        "message": "Ripristino configurazione"
+    },
+    "backupRestoreStatusRestoringProgress": {
+        "message": "Ripristino configurazione... ($1 / $2)"
+    },
+    "backupRestoreRestoreAborted": {
+        "message": "Ripristino interrotto — le impostazioni NON sono state salvate."
+    },
+    "backupRestoreErrorTitle": {
+        "message": "Errori durante il ripristino"
+    },
+    "backupRestoreErrorText": {
+        "message": "I seguenti errori sono stati segnalati dal flight controller. Puoi salvare comunque le impostazioni oppure interrompere senza salvare."
+    },
+    "backupRestoreErrorAbort": {
+        "message": "Interrompi (non salvare)"
+    },
+    "backupRestoreErrorSave": {
+        "message": "Salva comunque"
+    },
+    "backupRestoreFlashCompleteOfferRestore": {
+        "message": "Flashing completato. Un backup è stato salvato prima del flashing."
+    },
+    "backupRestoreAutoRestoreConfirm": {
+        "message": "È stata eseguita la cancellazione completa del chip. Vuoi ripristinare il backup della configurazione salvato prima del flashing?"
+    },
+    "backupRestoreAutoRestoreWaiting": {
+        "message": "In attesa dell'avvio del flight controller..."
+    },
+    "backupRestoreAutoRestoreYes": {
+        "message": "Sì, ripristina"
+    },
+    "backupRestoreAutoRestoreNo": {
+        "message": "No, salta"
+    },
+    "backupRestoreAutoRestoreWaitingPort": {
+        "message": "In attesa che $1 diventi disponibile..."
+    },
+    "firmwareFlasherVersionWarningTitle": {
+        "message": "⚠ Avviso aggiornamento versione"
+    },
+    "firmwareFlasherVersionWarningText": {
+        "message": "Aggiornare da $1 a $2 senza la cancellazione completa del chip può causare problemi imprevedibili o la corruzione della configurazione. Il Configurator non ripristinerà automaticamente la configurazione del tuo FC."
+    },
+    "firmwareFlasherVersionWarningContinue": {
+        "message": "Continua senza cancellare"
+    },
+    "firmwareFlasherVersionWarningCancel": {
+        "message": "Annulla"
+    },
+    "backupRestoreMigrationApplied": {
+        "message": "Migrazione applicata: $1 → $2 ($3 modifiche)"
+    },
+    "backupRestoreMigrationWarningsHeader": {
+        "message": "Avvisi di migrazione:"
+    },
+    "backupRestoreDowngradeNoAutoRestore": {
+        "message": "Rilevato downgrade di versione major. Il ripristino automatico non è disponibile — ripristina manualmente il backup dopo aver verificato le impostazioni."
+    },
+    "migrationPreviewTitle": {
+        "message": "Migrazione impostazioni richiesta"
+    },
+    "migrationPreviewSubtitle": {
+        "message": "Il tuo backup ($1) verrà migrato per adattarsi al nuovo firmware ($2). Verranno applicate le seguenti modifiche:"
+    },
+    "migrationPreviewRemovedHeader": {
+        "message": "Impostazioni rimosse ($1):"
+    },
+    "migrationPreviewRenamedSettingsHeader": {
+        "message": "Impostazioni rinominate ($1):"
+    },
+    "migrationPreviewRenamedCommandsHeader": {
+        "message": "Comandi rinominati ($1):"
+    },
+    "migrationPreviewValueReplacementsHeader": {
+        "message": "Sostituzioni di valore ($1):"
+    },
+    "migrationPreviewSettingRemappingsHeader": {
+        "message": "Rimappature impostazioni ($1):"
+    },
+    "migrationPreviewContinue": {
+        "message": "Continua con il ripristino"
+    },
+    "migrationPreviewCancel": {
+        "message": "Annulla (revisione manuale)"
+    },
+    "migrationMissingProfileWarning": {
+        "message": "Nessun profilo di migrazione disponibile per la versione $1 → $2. Le impostazioni verranno ripristinate senza conversione — alcune potrebbero fallire o essere ignorate dal firmware."
+    },
+    "language_bg": {
+        "message": "Български"
+    },
+    "osdElement_HEADING_P": {
+        "message": "Heading P"
+    },
+    "osdElement_THROTTLE_EXPO": {
+        "message": "Throttle Expo"
+    },
+    "osdElement_STABILIZED.RC_EXPO": {
+        "message": "Stabilized.rc Expo"
+    },
+    "osdElement_STABILIZED.RC_YAW_EXPO": {
+        "message": "Stabilized.rc Yaw Expo"
+    },
+    "osdElement_STABILIZED.PITCH_RATE": {
+        "message": "Stabilized.pitch Rate"
+    },
+    "osdElement_STABILIZED.ROLL_RATE": {
+        "message": "Stabilized.roll Rate"
+    },
+    "osdElement_STABILIZED.YAW_RATE": {
+        "message": "Stabilized.yaw Rate"
+    },
+    "osdElement_MANUAL_RC_EXPO": {
+        "message": "Manual Rc Expo"
+    },
+    "osdElement_MANUAL_RC_YAW_EXPO": {
+        "message": "Manual Rc Yaw Expo"
+    },
+    "osdElement_MANUAL_PITCH_RATE": {
+        "message": "Manual Pitch Rate"
+    },
+    "osdElement_MANUAL_ROLL_RATE": {
+        "message": "Manual Roll Rate"
+    },
+    "osdElement_MANUAL_YAW_RATE": {
+        "message": "Manual Yaw Rate"
+    },
+    "osdElement_NAV_FW_CRUISE_THROTTLE": {
+        "message": "Nav Fw Cruise Throttle"
+    },
+    "osdElement_NAV_FW_PITCH_TO_THROTTLE": {
+        "message": "Nav Fw Pitch to Throttle"
+    },
+    "osdElement_FW_MIN_THROTTLE_DOWN_PITCH_ANGLE": {
+        "message": "Fw Min Throttle Down Pitch Angle"
+    },
+    "osdElement_THRUST_PID_ATTENUATION": {
+        "message": "Thrust Pid Attenuation"
+    },
+    "osdElement_TPA_TIME_CONSTANT": {
+        "message": "Tpa Time Constant"
+    },
+    "osdElement_FW_LEVEL_TRIM": {
+        "message": "Fw Level Trim"
+    },
+    "osdElement_FW_ALT_CONTROL_RESPONSE": {
+        "message": "Fw Alt Control Response"
     }
 }
