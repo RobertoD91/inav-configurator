@@ -16,6 +16,7 @@ jobs:
         name: Build nightly-release
         runs-on: ubuntu-latest
         needs: [build]
+        if: github.repository == 'iNavFlight/inav-configurator'
 
         steps:
             - name: Get current date
