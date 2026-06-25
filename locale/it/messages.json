@@ -3235,7 +3235,7 @@
         "message": "Ritardo missione failsafe"
     },
     "fsMissionDelayHelp": {
-        "message": "Definisce un ritardo in secondi: quanto INAV deve attendere prima di attivare il failsafe RTH se l'aeromobile e in una missione waypoint. Imposta a -1 per disabilitare totalmente il failsafe [0-600s]"
+        "message": "Definisce un ritardo in secondi: quanto INAV deve attendere prima di attivare il failsafe RTH se il velivolo e in una missione waypoint. Imposta a -1 per disabilitare totalmente il failsafe [0-600s]"
     },
     "drNavigation": {
         "message": "Navigazione Dead Reckoning"
@@ -3301,7 +3301,7 @@
         "message": "Usa discesa lineare"
     },
     "rthUseLinearDescentHelp": {
-        "message": "Se abilitato, l'aeromobile scenderà lentamente verso la quota Home RTH durante la tratta di rientro."
+        "message": "Se abilitato, il velivolo scenderà lentamente verso la quota Home RTH durante la tratta di rientro."
     },
     "rthLinearDescentStart": {
         "message": "Distanza inizio discesa lineare"
@@ -3955,10 +3955,10 @@
         "message": "Capacità batteria rimanente"
     },
     "osdElement_REMAINING_FLIGHT_TIME_HELP": {
-        "message": "Tempo di volo residuo stimato prima che il velivolo debba tornare a casa, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
+        "message": "Tempo di volo residuo stimato prima che il velivolo debba tornare a Home, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
     },
     "osdElement_REMAINING_FLIGHT_DISTANCE_HELP": {
-        "message": "Distanza di volo residua stimata prima che il velivolo debba tornare a casa, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
+        "message": "Distanza di volo residua stimata prima che il velivolo debba tornare a Home, in base all'energia residua della batteria, alla potenza media e alla distanza da Home (solo ala fissa, leggi la documentazione)"
     },
     "osdElement_MAIN_BATT_CELL_VOLTAGE_HELP": {
         "message": "Mostra la tensione media per cella della batteria principale"
@@ -6181,13 +6181,13 @@
         "message": "Programmazione JavaScript"
     },
     "javascriptProgrammingDescription": {
-        "message": "Scrivi codice JavaScript per controllare il tuo aeromobile. Il transpiler converte il tuo codice in Condizioni Logiche INAV."
+        "message": "Scrivi codice JavaScript per controllare il tuo velivolo. Il transpiler converte il tuo codice in Condizioni Logiche INAV."
     },
     "javascriptBetaWarning": {
         "message": "<strong>Currently in beta, for testing. Do not use for safety-critical applications!</strong>"
     },
     "javascriptEditorTitle": {
-        "message": "Editor JavaScript (shift-ctrl-v per incollare, fai clic destro su una variabile per rinominare)"
+        "message": "Editor JavaScript (shift-ctrl-v per incollare, clicca con il tasto destro su una variabile per rinominare)"
     },
     "javascriptLoadExample": {
         "message": "Carica Esempio:"
