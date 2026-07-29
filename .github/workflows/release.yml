@@ -3,6 +3,9 @@ name: Build tagged release
 # Manually-triggered release build: builds all platform packages via
 # ci.yml and publishes a (pre)release on this repository.
 on:
+  push:
+    tags:
+      - 'v*-srxl2-*'
   workflow_dispatch:
     inputs:
       tag:
@@ -43,9 +46,9 @@ jobs:
       - name: Upload release artifacts
         uses: softprops/action-gh-release@v2
         with:
-          name: inav-configurator-${{ env.VERSION }} ${{ github.event.inputs.tag }}
-          tag_name: ${{ github.event.inputs.tag }}
-          prerelease: ${{ github.event.inputs.prerelease }}
+          name: inav-configurator-${{ env.VERSION }} ${{ github.event.inputs.tag || github.ref_name }}
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          prerelease: true
           draft: false
           make_latest: false
           files: |
