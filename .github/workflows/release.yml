@@ -1,0 +1,84 @@
+name: Build tagged release
+
+# Manually-triggered release build: builds all platform packages via
+# ci.yml and publishes a (pre)release on this repository.
+on:
+  push:
+    tags:
+      - 'v*-srxl2-*'
+    branches:
+      - 'release/srxl2-*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to create (e.g. v9.0.2-srxl2-beta1)'
+        required: true
+        default: 'v9.0.2-srxl2-beta1'
+      prerelease:
+        description: 'Mark as pre-release'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: build
+    uses: ./.github/workflows/ci.yml
+
+  release:
+    name: Release
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v4
+      - name: Fetch build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+      - name: Get version
+        id: version
+        run: |
+          VERSION=$(grep version package.json | cut -d: -f2 | cut -d\" -f2)
+          echo "VERSION=${VERSION}" >> $GITHUB_ENV
+      - name: Compute tag
+        id: tagname
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            echo "tag=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
+          else
+            echo "tag=v${VERSION}-$(basename "${GITHUB_REF_NAME}")" >> $GITHUB_OUTPUT
+          fi
+      - name: Upload release artifacts
+        uses: softprops/action-gh-release@v2
+        with:
+          name: inav-configurator-${{ env.VERSION }} ${{ github.event.inputs.tag || steps.tagname.outputs.tag }}
+          tag_name: ${{ github.event.inputs.tag || steps.tagname.outputs.tag }}
+          prerelease: true
+          draft: false
+          make_latest: false
+          files: |
+            artifacts/*
+          body: |
+            ### Spektrum SRXL2 ESC beta
+
+            Configurator build with Spektrum SRXL2 ESC support: SRXL2 motor
+            protocol in the Outputs tab and the "Spektrum SRXL2 ESC" serial
+            port function in the Ports tab.
+
+            ### MacOS builds
+
+            MacOS builds are not signed, so you will need to run ```xattr -cr /path/to/your/INAV Configurator.app``` from the command line to remove the warnings about it being a downloaded application or moving it to trash when trying to launch.
+
+            ### Repository:
+            ${{ github.repository }}
+
+            ### Branch:
+            ${{ github.ref_name }}
+
+            ### Commit:
+            ${{ github.sha }}
