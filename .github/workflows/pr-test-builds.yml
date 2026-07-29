@@ -56,7 +56,7 @@ jobs:
             if (isNaN(prNumber)) throw new Error(`Invalid PR number: ${process.env.PR_NUMBER}`);
             const runId    = process.env.RUN_ID;
             const shortSha = process.env.SHORT_SHA.slice(0, 7);
-            const artifactsUrl = `https://github.com/iNavFlight/inav-configurator/actions/runs/${runId}`;
+            const artifactsUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${runId}`;
 
             const body = [
               '<!-- pr-test-build-configurator -->',
