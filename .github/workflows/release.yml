@@ -6,6 +6,8 @@ on:
   push:
     tags:
       - 'v*-srxl2-*'
+    branches:
+      - 'release/srxl2-*'
   workflow_dispatch:
     inputs:
       tag:
@@ -43,11 +45,19 @@ jobs:
         run: |
           VERSION=$(grep version package.json | cut -d: -f2 | cut -d\" -f2)
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
+      - name: Compute tag
+        id: tagname
+        run: |
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            echo "tag=${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
+          else
+            echo "tag=v${VERSION}-$(basename "${GITHUB_REF_NAME}")" >> $GITHUB_OUTPUT
+          fi
       - name: Upload release artifacts
         uses: softprops/action-gh-release@v2
         with:
-          name: inav-configurator-${{ env.VERSION }} ${{ github.event.inputs.tag || github.ref_name }}
-          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          name: inav-configurator-${{ env.VERSION }} ${{ github.event.inputs.tag || steps.tagname.outputs.tag }}
+          tag_name: ${{ github.event.inputs.tag || steps.tagname.outputs.tag }}
           prerelease: true
           draft: false
           make_latest: false
